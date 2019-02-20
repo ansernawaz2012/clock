@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(117, 117, 103);
+    /* background-image: linear-gradient(from right, red, yellow); */
+}
+
+.clock {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20rem;
+}
+
+.clock-face {
+    height: 30rem;
+    width: 30rem;
+    /* background-color: rgb(104, 4, 4); */
+    background-image: linear-gradient(to bottom right, red, yellow);
+
+    border-radius: 100%;
+    border: 3px solid #aaaaaa;
+    margin:auto;
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: #000;
+    border-radius: 100%;
+  }
+
+ .second-hand {
+    position: absolute;
+    height: 12rem;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 12rem;
+    top: 0px;
+    margin: auto;
+    /* background: #000; */
+    -webkit-transform-origin: bottom;
+    background: #ff4136;
+  }
+
+  .min-hand {
+    position: absolute;
+    height: 13rem;
+    width: 2px;
+    left: 0;
+    right: 0;
+    bottom: 13rem;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+
+  .hour-hand {
+    position: absolute;
+    height: 9rem;
+    width: 6px;
+    left: 0;
+    right: 0;
+    bottom: 9rem;
+    top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+
+  .twelve {
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    background: #111111;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    color:white;
+    font-size: 2rem;
+  }
+
+  .six {
+
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    background: #111111;
+    left: 0;
+    /* top: 0; */
+    right: 0;
+    bottom:0;
+    margin: 0 auto;
+  }
+
+  .three {
+
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: #111111;
+    /* left: 0; */
+    top: 0;
+    right: 0;
+    bottom:0;
+    margin: auto 0;
+  }
+
+  .nine {
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: #111111;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+  }
+
+  #digital {
+      color:white;
+      font-size: 2rem;
+      text-shadow: 5px 5px #000;
+      padding-left: 10rem;
+  }
+
+  #date {
+    padding-left: 40rem;
+    color:white;
+      font-size: 2rem;
+      text-shadow: 5px 5px #000;
+
+  }
